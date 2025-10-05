@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile - Raisya Nailah</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #ebb6de 0%, #97d7e9 50%, #8cd58b 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .profile-card {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            margin: 20px 0;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 30px;
+            background: linear-gradient(45deg, #181d42, #c7c9de);
+            color: white;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(243, 173, 209, 0.3);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 20px auto;
+            display: block;
+            border: 5px solid #D58A9F;
+            box-shadow: 0 8px 20px rgba(213, 138, 159, 0.4);
+            object-fit: cover;
+        }
+
+        .section {
+            margin: 30px 0;
+            padding: 25px;
+            border-radius: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        .section:hover {
+            transform: translateY(-5px);
+        }
+
+        .about-section {
+            background: linear-gradient(135deg, #cf82e6, #dfb6e8);
+            color: #333;
+        }
+
+        .skills-section {
+            background: linear-gradient(135deg, #C6DA83, #a8c95a);
+            color: #333;
+        }
+
+        .hobbies-section {
+            background: linear-gradient(135deg, #D58A9F, #c7758f);
+            color: white;
+        }
+
+        .links-section {
+            background: linear-gradient(135deg, #D6E6FD, #c1d9fc);
+            color: #333;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .icon {
+            font-size: 1.2em;
+        }
+
+        p {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin-left: 20px;
+            font-size: 1.1em;
+        }
+
+        li {
+            margin: 8px 0;
+            padding: 5px 0;
+        }
+
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .link-button {
+            display: inline-block;
+            padding: 12px 25px;
+            background: linear-gradient(45deg, #4A4F87, #6b5b95);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+            box-shadow: 0 5px 15px rgba(74, 79, 135, 0.3);
+        }
+
+        .link-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(74, 79, 135, 0.4);
+            background: linear-gradient(45deg, #6b5b95, #4A4F87);
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #666;
+            font-style: italic;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+
+            .profile-card {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .links {
+                flex-direction: column;
+            }
+
+            .section {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-card">
+            <div class="header">
+                <h1>Raisya Nailah</h1>
+                <p class="subtitle">Information Systems Student | UI/UX Design and Database Enthusiast</p>
+            </div>
+
+            <img src="c:\Users\Raisya Nailah\Downloads\foto raisya.jpg" alt="Profile Picture" class="profile-image">
+
+
+            <div class="section about-section">
+                <h2><span class="icon">👋</span> About Me</h2>
+                <p>Hallo! Saya Raisya, seorang mahasiswa dari BINUS University. Jurusan yang saya ambil yaitu Information System, saat ini saya sedang berada disemester 3. Saya suka mempelajari hal-hal tentang UI/UX design ataupun seputar database management.</p>
+                <p>Saya suka mencoba hal-hal baru yang bermanfaat, akhir-akhir ini saya sedang belajar cara membuat website. Selain itu, saya juga dapat melakukan edit video atau dan menulis sebuah cerita. Ini sedikit berbeda dari sebelumnya, namun saya juga suka baking dan juga memasak</p>
+            </div>
+
+            <div class="section skills-section">
+                <h2><span class="icon">🚀</span> Skills</h2>
+                <ol>
+                    <li>Phyton - Dapat melakukan basic programming dengan phyton</li>
+                    <li>Canva  - Membuat creative task seperti presentasi, poster, scrapbook</li>
+                    <li>Capcut & Imovies - Mengedit video dan tambahan lain nya untuk kebutuhan editing</li>
+                    <li>microsoft - Memahami basic microsoft</li>
+                    <li>Bahasa - Sedang memperdalami belajar 3 Bahasa</li>
+                </ol>
+            </div>
+
+            <div class="section hobbies-section">
+                <h2><span class="icon">🎨</span> Hobbies & Interests</h2>
+                <ul>
+                    <li>Menulis - Saya dapat menulis cerita dengan berjumlah beberapa halaman</li>
+                    <li>Baking - Membuat kue adalah salah satu kegiatan yang paling sering saya lakukan</li>
+                    <li>Sport Enthusiast - Suka explor beberapa olahraga seperti yoga dan renang</li>
+                    <li>Trackking - melakukan tracking dengan pemandangan pegunungan yang asri</li>
+                    <li>Photobooth - Merupakan sesuatu yang berguna banget untuk membuat sebuah memori</li>
+                    
+                </ul>
+            </div>
+
+            <div class="section links-section">
+                <h2><span class="icon">🔗</span> Connect With Me</h2>
+                <div class="links">
+                    <a href="https://www.instagram.com/raisyanailaa/?next=%2F" class="link-button" target="_blank">🔧 Instagram</a>
+                    <a href="https://www.linkedin.com/in/raisya-nailah-putri-206b781b9/" class="link-button" target="_blank">💼 LinkedIn Profile</a>
+                    <a href="https://open.spotify.com/user/pz19baygjo0m8og7zyeuncfjq?si=OA6EY881Syi5ZjuzxrTIFg" class="link-button" target="_blank">🎨 Spotify</a>
+                    <a href="https://m365.cloud.microsoft/search/overview?auth=2&client-request-id=d8936232-4f5c-4057-a215-2d4ddabbcbe8&form=delve&origin=ProfileAboutMe&origindomain=microsoft365&pp=f261ab90-5f4d-4d04-832f-1e5ad1bc8d82%403485b963-82ba-4a6f-810f-b5cc226ff898%7Craisya.putri003%40binus.ac.id&redirectOrgId=12142556-31a1-4578-a6df-1421ecf44cb8&redirectUserId=f261ab90-5f4d-4d04-832f-1e5ad1bc8d82&spocorrelationid=00000000-0000-0000-0000-000000000000&v=profile" class="link-button">✉️ Outlook Mail</a>
+                </div>
+            </div>
+
+            <div class="footer">
+                <p>© 2025 Raisya Nailah. All rights reserved.</p>
+                <p>Perkenalan diri secara singkat dengan data-data yang sudah ditulis</p>
+                <p>Crafted with ❤️</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
